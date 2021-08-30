@@ -33,7 +33,7 @@ to build the app, please run the following commands:
 ```
 $ cd apps/<app name>
 $ mkdir build && cd build
-$ cmake ..
+$ cmake .. && cmake --build .
 $ cp ../*.png .
 $ ./runme
 ```
